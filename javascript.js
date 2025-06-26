@@ -20,15 +20,15 @@ TIPS: Husk parenteser for å styre rekkefølgen i logikken!
 
 ******************************************************************************/
 
-let age = 18;
+let age = 16;
 let hasTicket = false;
 let isVIP = true;
-let hour = 24;
+let hour = 22;
 
 // Skriv koden for ekstraoppgave 1 her
 
 // NESTED IF
-if (hasTicket || isVIP) {
+if (hasTicket === true || isVIP === true) {
   if (age >= 18 && hour >= 18 && hour <= 23) {
     console.log("Velkommen inn!");
   } else {
@@ -39,7 +39,12 @@ if (hasTicket || isVIP) {
 }
 
 // PARENTHESIS IF STATEMENT
-if ((hasTicket || isVIP) && age >= 18 && hour >= 18 && hour <= 23) {
+if (
+  (hasTicket === true || isVIP === true) &&
+  age >= 18 &&
+  hour >= 18 &&
+  hour <= 23
+) {
   console.log("Velkommen inn!");
 } else {
   console.log("Du har ikke adgang.");
