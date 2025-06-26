@@ -21,13 +21,13 @@ TIPS: Husk parenteser for å styre rekkefølgen i logikken!
 ******************************************************************************/
 
 let age = 18;
-let hasTicket = true;
-let isVIP = false;
-let hour = 19;
+let hasTicket = false;
+let isVIP = true;
+let hour = 24;
 
 // Skriv koden for ekstraoppgave 1 her
 
-// NESTED LOOP
+// NESTED IF
 if (hasTicket || isVIP) {
   if (age >= 18 && hour >= 18 && hour <= 23) {
     console.log("Velkommen inn!");
@@ -65,18 +65,18 @@ TIPS: Du kan sjekke om et tall er helt med: `number % 1 === 0`
 
 ******************************************************************************/
 
-let startValue = 12;
+let startValue = 5;
 
 // Skriv koden for ekstraoppgave 2 her
 
 startValue += 5;
-console.log(startValue);
+// console.log(startValue);
 startValue *= 2;
-console.log(startValue);
+// console.log(startValue);
 startValue -= 4;
-console.log(startValue);
+// console.log(startValue);
 startValue /= 3;
-console.log(startValue);
+// console.log(startValue);
 if (startValue % 1 === 0) {
   if (startValue < 10) {
     console.log(startValue);
@@ -86,8 +86,8 @@ if (startValue % 1 === 0) {
     console.log("Stor helt");
   }
 } else {
-  console.log("Desimalhelt");
   console.log(startValue);
+  console.log("Desimalhelt");
 }
 
 /******************************************************************************
@@ -113,7 +113,7 @@ Bruk en `switch` for å bestemme tekst som skal vises, og gjør følgende:
 
 ******************************************************************************/
 
-let weatherType = "idk";
+let weatherType = " ";
 let temperature = 30;
 
 // Skriv koden for ekstraoppgave 3 her
